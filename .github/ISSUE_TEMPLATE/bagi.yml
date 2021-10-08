@@ -21,7 +21,7 @@ body:
     id: what-happened
     attributes:
       label: Опишите суть проблемы
-      description:  Чёткое подробное описание проблемы
+      description:  Чёткое подробное описание проблемы.
       placeholder: Что случилось?
       value: "Найдена проблемка"
     validations:
@@ -36,27 +36,17 @@ body:
         - 1.0.1
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
-    id: logs
+    id: reproduce
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Как можно воспроизвести проблему
+      description: Опишите подробно, каким образом можно воспроизвести ситуацию о которой сообщаете.
       render: shell
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Нормы поведения
+      description: Отправляя это сообщение, вы соглашаетесь соблюдать [Кодекс поведения] (https://example.com) этого проекта
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: Я соглашаюсь соблюдать Кодекс поведения этого проекта 
           required: true
