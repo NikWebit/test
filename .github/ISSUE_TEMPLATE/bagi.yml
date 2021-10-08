@@ -9,11 +9,3 @@ body:
     attributes:
       value: |
         Спасибо, что нашли время заполнить этот отчет об ошибке или неполадке!
-  - type: input
-  id: contact
-    attributes:
-      label: Опишите суть проблемы
-      description: Чёткое и краткое описание неполадки или бага
-      placeholder: что случилось?
-    validations:
-      required: false
