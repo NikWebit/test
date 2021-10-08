@@ -4,10 +4,10 @@ title: "Баг или неполадка"
 labels: [баг, пофиксить]
 assignees: -"NikWebit"
 body:
-type: markdown 
+- type: markdown 
 attributes:
 value: |"Спасибо, что нашли время заполнить этот отчет об ошибке или неполадке!"
-- type:input 
+- type: input 
 attributes:
 label: Опишите суть проблемы 
 description: Чёткое и краткое описание неполадки или бага. 
