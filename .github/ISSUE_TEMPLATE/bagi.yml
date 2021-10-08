@@ -23,17 +23,17 @@ body:
       label: Опишите суть проблемы
       description:  Чёткое подробное описание проблемы
       placeholder: Что случилось?
-      value: "A bug happened!"
+      value: "Найдена проблемка"
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Версия CMS Cotont
+      description: Какая версия движка установлена?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1.0.0 (Default)
+        - 1.0.1
     validations:
       required: true
   - type: dropdown
