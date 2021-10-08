@@ -1,4 +1,4 @@
-name: 🐞 Bug
+name: 🐞 Баг-репорт
 description: File a bug/issue
 title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
