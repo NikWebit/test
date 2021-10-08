@@ -24,7 +24,7 @@ body:
       label: Версия CMS Cotont
       description: Какая версия движка установлена?
       options:
-        - 1.0.0 (Default)
+        - 1.0.0
         - 1.0.1
     validations:
       required: true
