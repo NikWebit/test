@@ -1,20 +1,28 @@
-name: "🐞 Баг-репорт"
-description: "Сообщить об ошибке или неполадке, для срочного исправления со стороны разработчиков"
-title: "Баг или неполадка"
-labels: ["баг", "пофиксить"]
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
 assignees:
-- NikWebit
+  - octocat
 body:
-- type: input 
-attributes:
-label: Опишите суть проблемы 
-description: Чёткое и краткое описание неполадки или бага. 
-validations:
-required: true
-- type: checkboxes
-  attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: I have searched the existing issues
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
       required: true
