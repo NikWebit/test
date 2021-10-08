@@ -3,7 +3,7 @@ description: Сообщить об ошибке или неполадке, дл�
 title: "Баг или неполадка"
 labels: ["баг", "пофиксить"]
 assignees:
-  - octocat
+  - NikWebit
 body:
   - type: markdown
     attributes:
