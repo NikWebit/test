@@ -18,16 +18,6 @@ body:
       value: "Найдена проблемка"
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Версия CMS Cotont
-      description: Какая версия движка установлена?
-      options:
-        - 1.0.0
-        - 1.0.1
-    validations:
-      required: true
   - type: textarea
     id: reproduce
     attributes:
