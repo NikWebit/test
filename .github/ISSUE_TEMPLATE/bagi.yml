@@ -14,6 +14,6 @@ body:
     attributes:
       label: Опишите суть проблемы
       description: Чёткое и краткое описание неполадки или бага
-      placeholder: "что случилось?"
+      placeholder: что случилось?
     validations:
       required: false
