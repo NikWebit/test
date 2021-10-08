@@ -9,7 +9,6 @@ body:
     attributes:
       value: |
         Спасибо, что нашли время заполнить этот отчет об ошибке или неполадке!
-  - type: input
   - type: textarea
     id: what-happened
     attributes:
