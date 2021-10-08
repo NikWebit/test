@@ -3,12 +3,12 @@ description: Сообщить об ошибке или неполадке, дл�
 title: "Баг или неполадка"
 labels: ["баг", "пофиксить"]
 assignees:
-  - octocat
+  - NikWebit
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+       Спасибо, что нашли время заполнить этот отчет об ошибке или неполадке!
   - type: input
     id: contact
     attributes:
