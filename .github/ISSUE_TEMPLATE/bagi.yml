@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Спасибо, что нашли время заполнить этот отчет об ошибке или неполадке!
   - type: input
     id: contact
     attributes:
@@ -20,9 +20,9 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: Опишите суть проблемы
+      description:  Чёткое подробное описание проблемы
+      placeholder: Что случилось?
       value: "A bug happened!"
     validations:
       required: true
