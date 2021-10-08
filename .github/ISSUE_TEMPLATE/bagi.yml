@@ -26,11 +26,3 @@ body:
     validations:
       required: true
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Нормы поведения
-      description: Отправляя это сообщение, вы соглашаетесь соблюдать [Кодекс поведения] (https://example.com) этого проекта
-      options:
-        - label: Я соглашаюсь соблюдать Кодекс поведения этого проекта 
-          required: true
