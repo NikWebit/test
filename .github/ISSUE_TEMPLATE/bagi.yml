@@ -12,8 +12,8 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Опишите суть проблемы
+      description: Чёткое и краткое описание неполадки или бага
+      placeholder: "что случилось?"
     validations:
       required: false
