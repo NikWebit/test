@@ -23,7 +23,7 @@ body:
     attributes:
       label: Как можно воспроизвести проблему
       description: Опишите подробно, каким образом можно воспроизвести ситуацию о которой сообщаете.
-     validations:
+    validations:
       required: true
       render: shell
   - type: checkboxes
